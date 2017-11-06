@@ -1,6 +1,6 @@
 # PDOQuery
 
-Extension of the PDOStatment class for a one-stop query
+This class extends the PDO class to add a one-stop prepared query method.
 
 ## Usage
 
