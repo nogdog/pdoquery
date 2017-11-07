@@ -9,7 +9,7 @@ class PDOQuery extends PDO
      * Prepare and execute a query
      *
      * @param string $sql
-     * @param Array $data  array(':place_holder_1' => 'value_1[,...])
+     * @param Array $data  array(':place_holder_1' => 'value_1'[,...])
      * @return PDOStatement
      */
     public function preparedQuery($sql, Array $data=array())
