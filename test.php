@@ -22,7 +22,7 @@ try {
         echo 'FAIL'.PHP_EOL;
     }
 } catch(Exception $e) {
-
+    echo 'FAIL'.PHP_EOL.print_r($e).PHP_EOL;
 } finally {
     if (file_exists($db)) {
         unlink($db);
