@@ -1,4 +1,7 @@
 <?php
+/*
+ * From this directory, just run `php test.php`
+ */
 require __DIR__.'/PDOQuery.php';
 $pdo = new PDOQuery('sqlite:pdoquery_test.sqlite');
 $pdo->preparedQuery('create table test_table(id integer primary key, some_text text)');
